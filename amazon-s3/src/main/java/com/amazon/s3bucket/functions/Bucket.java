@@ -18,10 +18,10 @@ import java.util.logging.Logger;
 
 public class Bucket {
 
-    Logger log = Logger.getLogger(Bucket.class.getName());
+    private Logger log = Logger.getLogger(Bucket.class.getName());
 
     //Creating Client Connection
-    AWSCredentials credentials = new BasicAWSCredentials(
+    private AWSCredentials credentials = new BasicAWSCredentials(
             "<AWS accesskey>",
             "<AWS secretkey>"
     );
@@ -64,10 +64,8 @@ public class Bucket {
     }
 
     //Amazon S3 Object Operations
-    /*
-        putObject(String bucketName, String key, File file)
-        Uploads the specified file to Amazon S3 under the specified bucket and key name.
-     */
+
+    //Uploads the specified file to Amazon S3 under the specified bucket and key name.
     void uploadObject(String bucketName, String key, String file){
         s3client.putObject(
                 bucketName,
@@ -96,5 +94,22 @@ public class Bucket {
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage(), e);
         }
+    }
+
+    void copyObject(String srcBucketName, String srcKey, String destBucketName, String destKey)
+    {
+        s3client.copyObject(srcBucketName, srcKey, destBucketName, destKey);
+    }
+
+    void deleteObject(String bucketName, String objKey)
+    {
+        s3client.deleteObject(bucketName, objKey);
+    }
+
+    void deleteObject(String bucketName, String[] objkeyArr)
+    {
+        DeleteObjectsRequest delObjReq = new DeleteObjectsRequest(bucketName)
+                .withKeys(objkeyArr);
+        s3client.deleteObjects(delObjReq);
     }
 }
