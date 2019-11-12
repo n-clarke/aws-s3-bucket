@@ -16,7 +16,7 @@ Object Operations
 - Copy Objects from one Bucket to another Bucket
 - Delete Objects
 ```
-Note* The Tool makes use of a Console Input UI.
+Note* The Tool makes use of a Console UI.
 
 ## Prerequisites
 
