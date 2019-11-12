@@ -1,6 +1,6 @@
 # AWS S3 Bucket Tool
 
-This tool allows users to connect to an AWS and do the following to S3 Buckets.
+This tool allows users to connect to Amazon Web Services and do the following process to S3 Buckets.
 
 Bucket Operations
 ```
