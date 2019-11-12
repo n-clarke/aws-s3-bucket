@@ -8,8 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 
-public class BucketOperation {
-
+public class BucketOperation
+{
     BucketOperation(Connection conn)
     {
         this.conn = conn;
@@ -21,7 +21,8 @@ public class BucketOperation {
     //Amazon S3 Bucket Operations
     private ArrayList bucketNamesList = null;
 
-    public String getAllBucketNames(){
+    public String getAllBucketNames()
+    {
         setAllBucketsNames();
         return Arrays.toString(new ArrayList[]{ this.bucketNamesList });
     }

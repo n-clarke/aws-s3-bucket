@@ -10,9 +10,10 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 
 import java.util.logging.Logger;
 
-public class Connection {
-
-    Connection(String accessKey, String secretKey){
+public class Connection
+{
+    Connection(String accessKey, String secretKey)
+    {
         try {
             setAWSCredentials(accessKey, secretKey);
         } catch (AmazonServiceException e) {

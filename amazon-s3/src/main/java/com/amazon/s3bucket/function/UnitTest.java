@@ -61,4 +61,11 @@ public class UnitTest {
             assertEquals(expected, actual);
         }
     }
+
+    @Nested
+    @DisplayName("Object Operations")
+    class ObjectOperationsTest {
+
+
+    }
 }
