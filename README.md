@@ -1,5 +1,13 @@
-# aws-s3-bucket
+# AWS S3 Bucket Tool
 
+## Prerequisites
+
+AWS Access Keys (Access Key ID and Secret Access Key)
+These access credentials are required to connect to Amazon S3. 
+See documentation below:
+```
+https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html
+```
 ## Dependencies
 
 junit-jupiter-api
