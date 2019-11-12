@@ -4,17 +4,17 @@ This tool allows users to connect to an AWS and do the following to S3 Buckets.
 
 Bucket Operations
 ```
-Create Buckets
-Delete Buckets
-View a List of All Buckets
+- Create Buckets
+- Delete Buckets
+- View a List of All Buckets
 ```
 Object Operations
 ```
-List all the available objects in S3 bucket
-Upload Files to Bucket
-Download Files from Bucket
-Copy Objects to another Bucket
-Delete Objects
+- List all the available objects in S3 bucket
+- Upload Files to Bucket
+- Download Files from Bucket
+- Copy Objects from one Bucket to another Bucket
+- Delete Objects
 ```
 Note* The Tool makes use of a Console Input UI.
 
