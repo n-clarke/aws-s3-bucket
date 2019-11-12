@@ -22,7 +22,7 @@ public class ObjectOperation {
     private Logger log = Logger.getLogger(ObjectOperation.class.getName());
 
     //Uploads the specified file to Amazon S3 under the specified bucket and key name.
-    void uploadObject(String bucketName, String key, String file){
+    public void uploadObject(String bucketName, String key, String file){
         conn.s3client.putObject(
                 bucketName,
                 key,
@@ -31,14 +31,14 @@ public class ObjectOperation {
     }
 
     //list all the available objects in our S3 bucket
-    void listObjects(String bucketName){
+    public void listObjects(String bucketName){
         ObjectListing objectListing = conn.s3client.listObjects(bucketName);
         for(S3ObjectSummary os : objectListing.getObjectSummaries()) {
             log.info(os.getKey());
         }
     }
 
-    void downloadObject(String bucketName, String key, String saveLocalFileCopyUrl ){
+    public void downloadObject(String bucketName, String key, String saveLocalFileCopyUrl ){
         try {
             S3Object s3object = conn.s3client.getObject(bucketName, key);
             InputStream inputStream = s3object.getObjectContent();
@@ -52,17 +52,17 @@ public class ObjectOperation {
         }
     }
 
-    void copyObject(String srcBucketName, String srcKey, String destBucketName, String destKey)
+    public void copyObject(String srcBucketName, String srcKey, String destBucketName, String destKey)
     {
         conn.s3client.copyObject(srcBucketName, srcKey, destBucketName, destKey);
     }
 
-    void deleteObject(String bucketName, String objKey)
+    public void deleteObject(String bucketName, String objKey)
     {
         conn.s3client.deleteObject(bucketName, objKey);
     }
 
-    void deleteObject(String bucketName, String[] objKeyArr)
+    public void deleteObject(String bucketName, String[] objKeyArr)
     {
         DeleteObjectsRequest delObjReq = new DeleteObjectsRequest(bucketName)
                 .withKeys(objKeyArr);

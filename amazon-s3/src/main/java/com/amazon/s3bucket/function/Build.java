@@ -10,12 +10,8 @@ public class Build {
     public Build(){
         try {
             conn = new Connection(inScan.nextLine(), inScan.nextLine());
-            BucketOperation bo = new BucketOperation(conn);
-            ObjectOperation oo = new ObjectOperation(conn);
-
-
-
-
+            bo = new BucketOperation(conn);
+            oo = new ObjectOperation(conn);
         } catch (AmazonServiceException e) {
             log.info("Build Failed Please Try Again\n" + e.getErrorMessage());
             return;
@@ -25,6 +21,8 @@ public class Build {
     private Logger log = Logger.getLogger(Build.class.getName());
     private Scanner inScan = new Scanner(System.in);
     private Connection conn;
+    public BucketOperation bo;
+    public ObjectOperation oo;
 
     {
         inScan.close();

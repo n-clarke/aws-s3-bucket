@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 public class Connection {
 
-    public Connection(String accessKey, String secretKey){
+    Connection(String accessKey, String secretKey){
         try {
             setAWSCredentials(accessKey, secretKey);
         } catch (AmazonServiceException e) {
@@ -21,10 +21,19 @@ public class Connection {
         }
     }
 
-    private Logger log = Logger.getLogger(Connection.class.getName());
+    Connection(String accessKey, String secretKey, Regions region){
+        try {
+            setAWSCredentials(accessKey, secretKey);
+            setRegion(region);
+        } catch (AmazonServiceException e) {
+            log.info("Connection to S3Bucket has Failed Please Try Again\n" + e.getErrorMessage());
+            return;
+        }
+    }
 
-    //Creating Client Connection
+    private Logger log = Logger.getLogger(Connection.class.getName());
     private AWSCredentials credentials;
+    private Regions getRegion = Regions.DEFAULT_REGION;
 
     private void setAWSCredentials(String accessKey, String secretKey)
     {
@@ -37,9 +46,11 @@ public class Connection {
         }
     }
 
+    private void setRegion (Regions region) { this.getRegion = region; }
+
     AmazonS3 s3client = AmazonS3ClientBuilder
             .standard()
             .withCredentials(new AWSStaticCredentialsProvider(credentials))
-            .withRegion(Regions.DEFAULT_REGION)
+            .withRegion(getRegion)
             .build();
 }
