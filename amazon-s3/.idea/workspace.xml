@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02e88c86-cb98-4ff5-a336-10e458c5a008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+            <state relative-caret-position="629">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/build/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -134,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UTConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UTBucket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Connection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java" />
       </list>
     </option>
   </component>
@@ -305,16 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-196">
@@ -365,6 +353,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
