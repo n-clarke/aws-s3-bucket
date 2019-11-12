@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02e88c86-cb98-4ff5-a336-10e458c5a008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="44" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="44" />
+            <state relative-caret-position="510">
+              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -29,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Build.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="-196">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#472#473#0" expanded="true" />
@@ -55,10 +57,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/BucketOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="-16">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
@@ -71,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="166">
+              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/build/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="43" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="11" selection-end-column="43" />
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -114,11 +128,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Function.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/bulld.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/BucketOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/build/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Connection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Build.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/BucketOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UTConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UTBucket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Connection.java" />
       </list>
     </option>
   </component>
@@ -283,44 +300,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/functions/Run.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="44" />
+        <state relative-caret-position="510">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/build/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/UnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/BucketOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Build.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="1020">
+          <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -329,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/ObjectOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="-196">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
@@ -338,6 +326,45 @@
             <element signature="e#1413#1414#0" expanded="true" />
             <element signature="e#1475#1476#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/Build.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/function/BucketOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/s3bucket/build/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>

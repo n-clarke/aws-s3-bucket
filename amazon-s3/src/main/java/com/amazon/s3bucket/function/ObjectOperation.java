@@ -17,8 +17,6 @@ public class ObjectOperation {
 
     private Connection conn;
     private Logger log = Logger.getLogger(ObjectOperation.class.getName());
-    private Bucket bucketName;
-    private String key;
 
     //Uploads the specified file to Amazon S3 under the specified bucket and key name.
     public void uploadObject(String bucketName, String key, String file){
@@ -51,7 +49,7 @@ public class ObjectOperation {
         }
     }
 
-    public void copyObject(String srcBucketName, String srcKey, String destBucketName, String destKey)
+    public void copyObjectToBucket(String srcBucketName, String srcKey, String destBucketName, String destKey)
     {
         conn.s3client.copyObject(srcBucketName, srcKey, destBucketName, destKey);
     }
