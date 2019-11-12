@@ -1,9 +1,6 @@
 package com.amazon.s3bucket.function;
 
-import com.amazonaws.services.s3.model.DeleteObjectsRequest;
-import com.amazonaws.services.s3.model.ObjectListing;
-import com.amazonaws.services.s3.model.S3Object;
-import com.amazonaws.services.s3.model.S3ObjectSummary;
+import com.amazonaws.services.s3.model.*;
 
 import java.io.File;
 import java.io.InputStream;
@@ -20,6 +17,8 @@ public class ObjectOperation {
 
     private Connection conn;
     private Logger log = Logger.getLogger(ObjectOperation.class.getName());
+    private Bucket bucketName;
+    private String key;
 
     //Uploads the specified file to Amazon S3 under the specified bucket and key name.
     public void uploadObject(String bucketName, String key, String file){
