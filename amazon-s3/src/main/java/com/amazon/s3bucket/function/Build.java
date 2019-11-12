@@ -9,25 +9,23 @@ public class Build
 {
     public Build()
     {
+        Scanner scan = new Scanner(System.in);
         try {
-            conn = new Connection(inScan.nextLine(), inScan.nextLine());
+            System.out.println("Please enter your accessKey" + "Please enter your secretKey");
+            conn = new Connection(scan.nextLine(), scan.nextLine());
             bo = new BucketOperation(conn);
             oo = new ObjectOperation(conn);
         } catch (AmazonServiceException e) {
             log.info("Build Failed Please Try Again\n" + e.getErrorMessage());
             return;
         }
+        scan.close();
     }
 
     private Logger log = Logger.getLogger(Build.class.getName());
-    private Scanner inScan = new Scanner(System.in);
     private Connection conn;
     public BucketOperation bo;
     public ObjectOperation oo;
-
-    {
-        inScan.close();
-    }
 
     public void displayMainMenu() {
         Scanner scan = new Scanner(System.in);
