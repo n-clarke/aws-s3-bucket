@@ -24,7 +24,7 @@
         <maven.compiler.source>7</maven.compiler.source>
         <maven.compiler.target>7</maven.compiler.target>
         <junit.jupiter.version>5.5.0-M1</junit.jupiter.version>
-        <awsjavasdk.version>1.11.671</awsjavasdk.version>
+        <awsjavasdk.version>1.12.261</awsjavasdk.version>
     </properties>
 
     <dependencies>
